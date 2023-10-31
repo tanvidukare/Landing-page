@@ -1,0 +1,140 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #170101;
+}
+
+/* Header styles */
+header {
+  background: linear-gradient(to right, #db91f9, #7cd4fa);
+  color: #150808;
+  padding: 10px;
+  display: block;
+  text-align: left;
+}
+
+nav ul {
+  list-style: none;
+  display: inline-block; 
+  margin-inline: 150px;
+  margin-inline-end: 100px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 65px;
+  margin-inline: 500;
+}
+
+nav ul li a {
+  color: #160101;
+  text-decoration: none;
+  font-size: 16.5px;
+  margin-bottom: 10;
+}
+.social-links {
+  display: inline-block;
+  margin-right: 20px;
+  text-align: right;
+  margin-inline: 100;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-left: 30px;
+  text-align: right;
+  margin-inline: 100;
+}
+
+.social-links li a {
+  color: #040000;
+  font-size: 20px;
+  text-align: right;
+}
+
+
+/* Hero section styles */
+.hero {
+  background-image: url('b.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  text-align: right center;
+  color: #130303;
+}
+
+.hero-content {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  background: #b053f3;
+  color: #fbf5f5;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background 0.3 ease;
+}
+
+.btn:hover {
+  background: #ea8484;
+}
+
+
+.features {
+  background-position: 10px;
+  background: #eae5e5;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.feature {
+  margin-bottom: 30px;
+}
+
+.feature h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #040912;
+}
+
+.feature p {
+  font-size: 18px;
+  color: #151212;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 2px;
+}
+
+footer a:hover {
+  border-bottom: none;
+}
